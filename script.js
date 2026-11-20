@@ -7,7 +7,7 @@ console.log(gameName);
 console.log(welcomeText);
 let samplePlayer = "Bob";
 console.log(
-  `Welcome ${Bob} to ${Game}!`
+  `Welcome ${samplePlayer} to ${gameName}!`
 );
 alert("Your game is about to begin!");
 // alert("Your game is about to begin!");
