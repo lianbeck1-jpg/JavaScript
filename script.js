@@ -17,8 +17,6 @@ const startButton = document.getElementById("startBtn");
 
 const message = document.getElementById("welcomeMessage");
 startButton.addEventListener("click", function() {
-
-});
 let playerName = nameInput.value.trim();
 let greeting =
   `Welcome, ${playerName}! Your gaming adventure starts now! 🎮`;
@@ -27,4 +25,6 @@ if (playerName === "") {
   message.textContent = "Please enter your gamer name!";
   return;
 }
+
+});
 
