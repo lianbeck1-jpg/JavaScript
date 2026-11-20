@@ -11,7 +11,7 @@ let samplePlayer = "Alex";
 console.log(`Welcome ${samplePlayer} to ${gameName}!`);
 
 // Uncomment this line temporarily if you want to test an alert.
-// alert("Your gaming adventure is about to begin!");
+alert("Your gaming adventure is about to begin!");
 
 // Find the HTML elements
 const nameInput = document.getElementById("gamerName");
