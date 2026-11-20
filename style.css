@@ -29,3 +29,22 @@ input{
   font-size: 16px;
   box-sizing: border-box;
 }
+button{
+  background-color: #7c3aed;
+  text-color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  top-margin: 15px;
+}
+button:hover {
+  background-color: #2563eb;
+}
+.welcomemessage{
+  text-color: #38bdf8;
+  font-weight: bold;
+  top-margin: 20px;
+  minimum-height: 24px;
+}
